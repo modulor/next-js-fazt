@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/modulor/next-js-fazt/issues"
   },
-  "homepage": "https://github.com/modulor/next-js-fazt#readme"
+  "homepage": "https://github.com/modulor/next-js-fazt#readme",
+  "dependencies": {
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
