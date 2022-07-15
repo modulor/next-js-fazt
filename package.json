@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/modulor/next-js-fazt#readme",
   "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
     "next": "^12.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
