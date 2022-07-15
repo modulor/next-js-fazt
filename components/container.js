@@ -1,13 +1,14 @@
 import Head from "next/head";
+import { Fragment } from "react";
 import Navigation from "./navigation";
 
 const Container = (props) => {
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>Next JS</title>
         <link
-          href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css"
+          href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/litera/bootstrap.min.css"
           rel="stylesheet"
         />
       </Head>
@@ -19,7 +20,7 @@ const Container = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 
