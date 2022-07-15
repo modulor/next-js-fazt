@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 
 const Container = (props) => {
   return (
