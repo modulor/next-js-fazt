@@ -1,3 +1,11 @@
-const Services = () => <h1>Services</h1>;
+import Container from "../components/container";
+
+const Services = () => {
+  return (
+    <Container>
+      <h1>Services...</h1>
+    </Container>
+  );
+};
 
 export default Services;

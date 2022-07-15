@@ -1,5 +1,11 @@
+import Container from "../components/container";
+
 const Index = () => {
-  return <h1>Better Call Saul</h1>;
+  return (
+    <Container>
+      <h1>Index</h1>
+    </Container>
+  );
 };
 
 export default Index;
